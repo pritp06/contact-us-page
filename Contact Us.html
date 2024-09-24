@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #1D2024;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #282C34;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .contact-section {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        /* Adding background box */
+        .contact-box {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            /* Align items at the start */
+        }
+
+        .contact-form {
+            width: 50%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            height: 400px;
+            /* Set a specific height */
+            display: flex;
+            flex-direction: column;
+            /* Arrange inputs vertically */
+            justify-content: center;
+            /* Center inputs vertically in the form */
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #333;
+            /* Darkened border */
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            /* Increased height for more space */
+        }
+
+        .contact-form button {
+            background-color: #000;
+            /* Black button */
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Changed background to light green for info box */
+        .contact-info {
+            width: 40%;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #90EE90;
+            /* Light Green background */
+            color: #000;
+            /* Dark text color for contrast */
+            margin-top: 100px;
+            /* Adjust margin-top to position it in the middle */
+        }
+
+        .contact-info h3 {
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #282C34;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-section">
+            <div class="contact-box">
+                <div class="contact-form">
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="E-mail">
+                        <input type="tel" placeholder="Number">
+                        <textarea placeholder="Message"></textarea>
+                        <button type="submit">Contact Us</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Info</h3>
+                    <p><i class="fas fa-envelope"></i> info@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 0000000000</p>
+                    <p><i class="fas fa-map-marker-alt"></i> CG Road, Ahmedabad</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 pritpatel. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
